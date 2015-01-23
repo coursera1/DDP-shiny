@@ -19,7 +19,7 @@ shinyUI(fluidPage(
                         h6("The script generate a log file on each server. 
                            They are then combined in a zip file. It is this zip file that needs to be loaded in the 'Upload server zip file'.
                            This action will generate the graph in the main panel. You can download an example of the zip file in the 
-                           githup repository associated with this project (right click on the link -> save link ...): ", a("Input.zip",href="http://github.com/coursera1/DDP-Project/raw/master/Input.zip")),
+                           githup repository associated with this project (right click on the link -> save link ...): ", a("Input.zip",href="http://github.com/coursera1/DDP-shiny/raw/master/Input.zip")),
                         h6("Now, just clic the 'Choose file' and select the 'Input.zip' file you've just downloaded."),
                         h6("Once this done, you can play around with the graph tuning parameters to select the date range, the x axis tick or the y axis limit and see the results on the graph."),
                         h5("Graph"),
@@ -27,7 +27,7 @@ shinyUI(fluidPage(
                            visible as these points are more important for the analysis."),
                         h5("Upload events file"),
                         h6("You can optionally upload another file that contains a series of time-events associations that will be plotted
-                           as vertical lines on the graph. You can find an example here (right click on the link -> save link  ...): ", a("Events.cvs",href="http://github.com/coursera1/DDP-Project/raw/master/Events.csv")),
+                           as vertical lines on the graph. You can find an example here (right click on the link -> save link  ...): ", a("Events.cvs",href="http://github.com/coursera1/DDP-shiny/raw/master/Events.csv")),
                         h5("Table views"),
                         h6("Two table views of the servers values and time-events data are displayed under the graph.")),
                 mainPanel(h3("Graph"),
